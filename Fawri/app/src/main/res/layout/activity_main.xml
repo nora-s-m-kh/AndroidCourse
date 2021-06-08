@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fawri_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fawri_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Fawri"
+            android:textColor="#BBD525"
+            android:textSize="40sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/for_you_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fawri_text"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="-6dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="for you"
+            android:textColor="#B37C1B"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/fawri_text"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="-54dp"
+            android:src="@drawable/pngegg"
+
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="#E1C6A4"
+            android:gravity="center"
+            android:text="about the app" />
+
+        <TextView
+            android:id="@+id/par_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fawri_text"
+            android:layout_marginTop="-2dp"
+            android:background="#E1C6A4"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="Fawri is a small business application that combines a big verity of restaurants. Users can explore the list of available restaurants and select their favorite one. Delivering the order to our clients in the fastest way possible is our priority mission. "
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contact_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#E1C6A4"
+            android:paddingLeft="56dp"
+            android:text="Contact us:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#E1C6A4"
+            android:paddingLeft="5dp"
+            android:paddingRight="55dp"
+            android:text="Fawri.Food.Delivery@gmail.com"
+            android:textColor="#1DBFC8"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
